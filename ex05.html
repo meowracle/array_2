@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ex05</title>
+</head>
+<body>
+<script>
+    let a = [2, 5, "and", 3, "IloveYou", "Cats"];
+    let b = [2, 5, "and", 3, "IloveYou", "Cats"];
+    let check = true;
+    if (a.length == b.length) {
+        for (i = 0; i < a.length; i++) {
+            if (a[i] != b[i]) {
+                check = false
+            }
+        }
+    } else check = false
+    if (check == true) {
+        alert("2 mang giong nhau");
+    } else {
+        alert("2 mang khong giong nhau");
+    }
+</script>
+</body>
+</html>
